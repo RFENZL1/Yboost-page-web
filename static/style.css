@@ -1,5 +1,6 @@
 body{
    background-color: #F1FAEE;
+   background-size: 100vh;
 }
 .navbar{
     display: flex;
@@ -46,10 +47,10 @@ body{
     bottom: 15vh;
 }
 .slogant{
+    position: absolute;
+    bottom: 35vh;
+    width: 5vw;
     display: flex;
-    align-items: center;
-    height: 70vh;
-    width: 60vw;
     font-size: 500%;
     margin-left: 1%;
     color:#457b9d
@@ -80,14 +81,18 @@ body{
 }  */
 
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
+    width: 15vw;
+    height: 10vh;
+    position: absolute;
+    right: 5vw;
+    bottom: 5vh;
     margin: auto;
   }
   
   /* Hide the images by default */
   .mySlides {
     display: none;
+    height: 10vh;
   }
   
   /* Next & previous buttons */
@@ -156,11 +161,24 @@ body{
   /* Fading animation */
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    height: 10vh;
+    width: 20vw;
   }
   
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+  .imagetransport{
+    width: 22vw;
+    height: 40vh;
+    position: absolute;
+    bottom: 12vh;
+    right: 7vw;
+  }
+  .point{
+    position: absolute;
+    bottom: 4vh;
+    right: 10.5vw;
   }
 
